@@ -12,7 +12,7 @@ menu_hamburger.addEventListener('click', ()=>{
     else {
         menu_hamburger.classList.remove('x')
         menu_hamburger.classList.add('hamburger')
-        menu_hamburger.setAttribute('src', 'assets/hamburger.svg')
+        menu_hamburger.setAttribute('src', 'assets/hamburger-f6f90966.svg')
         mobile_menu.setAttribute('style', 'top: -1000%');
     }
 })
@@ -22,6 +22,6 @@ document.querySelectorAll('#navigation a').forEach(n => {
         mobile_menu.setAttribute('style', 'top: -1000%');
         menu_hamburger.classList.remove('x')
         menu_hamburger.classList.add('hamburger')
-        menu_hamburger.setAttribute('src', 'assets/hamburger.svg')
+        menu_hamburger.setAttribute('src', 'assets/hamburger-f6f90966.svg')
     })
   })
