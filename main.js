@@ -5,14 +5,14 @@ menu_hamburger.addEventListener('click', ()=>{
     if(menu_hamburger.classList.contains('hamburger')) {
         menu_hamburger.classList.remove('hamburger')
         menu_hamburger.classList.add('x')
-        menu_hamburger.setAttribute('src', 'imagens/x.svg')
+        menu_hamburger.setAttribute('src', 'assets/x.svg')
         mobile_menu.setAttribute('style', 'top: 10vh');
 
     }
     else {
         menu_hamburger.classList.remove('x')
         menu_hamburger.classList.add('hamburger')
-        menu_hamburger.setAttribute('src', 'imagens/hamburger.svg')
+        menu_hamburger.setAttribute('src', 'assets/hamburger.svg')
         mobile_menu.setAttribute('style', 'top: -1000%');
     }
 })
@@ -22,6 +22,6 @@ document.querySelectorAll('#navigation a').forEach(n => {
         mobile_menu.setAttribute('style', 'top: -1000%');
         menu_hamburger.classList.remove('x')
         menu_hamburger.classList.add('hamburger')
-        menu_hamburger.setAttribute('src', 'imagens/hamburger.svg')
+        menu_hamburger.setAttribute('src', 'assets/hamburger.svg')
     })
   })
